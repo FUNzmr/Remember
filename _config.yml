@@ -30,7 +30,7 @@ author:
   rss                       : true # generate RSS feed and show it's icon in header
   mail                      : your@email.com # change to your e-mail address
   twitter                   : twitter-user-name
-  github                    : github-user-name
+  github                    : "http://FUNzmr.github.io" # github-user-name
   youtube                   : youtube-user-name
   stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
