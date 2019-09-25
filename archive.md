@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: 归档
 permalink: /archive/
 weight: 5
 sitemap:
