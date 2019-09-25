@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FUN
-permalink: /关于/
+permalink: /about/
 published: true
 ---
 
