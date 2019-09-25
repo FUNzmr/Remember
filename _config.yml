@@ -5,12 +5,12 @@ url                          : "http://FUNzmr.github.io" # the base hostname & p
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : FUN
+  title                      : 我们
   description                  : >
-                               YJSHAN
+                               有趣的
 
 # Layout configuration
-  logo_path                  : #"assets/img/dactl.svg" # path to logo file
+  logo_path                  : #"assets/img/dactl.svg" # path to logo fileUS
   search_path                : "FUNzmr.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
