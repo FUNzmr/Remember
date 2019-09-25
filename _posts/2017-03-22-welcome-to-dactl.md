@@ -4,7 +4,7 @@ title:  "Welcome to dactl!"
 tags:
   - dactl
   - jekyll
-hero: /uploads/screenshot_desktop_light.jpg
+hero: https://w.wallhaven.cc/full/r2/wallhaven-r2o657.jpg
 overlay: red
 published: true
 
