@@ -5,9 +5,9 @@ url                          : "http://FUNzmr.github.io" # the base hostname & p
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : 我们
+  title                      : fun
   description                  : >
-                               有趣的
+                               We're
 
 # Layout configuration
   logo_path                  : #"assets/img/dactl.svg" # path to logo fileUS
