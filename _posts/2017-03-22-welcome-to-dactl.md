@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Welcome to dactl!"
+title:  "你果然好看"
 tags:
-  - dactl
-  - jekyll
+  - 真的
+  - 好看
 hero: uploads/zmr1569464182809.jpg
 overlay: 
 published: true
 
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`.
+喜欢你，超级喜欢你。
 {: .lead}
 <!–-break-–>
 This launches a web server and auto-regenerates your site when a file is updated.  
