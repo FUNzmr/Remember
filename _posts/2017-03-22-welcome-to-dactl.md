@@ -5,7 +5,7 @@ tags:
   - dactl
   - jekyll
 hero: uploads/screenshot_desktop_light.jpg
-overlay: red
+overlay: 
 published: true
 
 ---
