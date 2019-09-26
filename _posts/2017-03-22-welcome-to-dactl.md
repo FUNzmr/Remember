@@ -4,7 +4,7 @@ title:  "Welcome to dactl!"
 tags:
   - dactl
   - jekyll
-hero: uploads/screenshot_desktop_light.jpg
+hero: uploads/zmr1569464182809.jpg
 overlay: 
 published: true
 
