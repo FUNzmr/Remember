@@ -48,9 +48,9 @@ valine:
   appkey: u6vG3pP3jdraMeUUHIwheV5u # your leancloud app key
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: true # Verification code
-  placeholder: 非Github帐号登录用户，在此处留言 # comment box placeholder
+  placeholder: 在此处留言··· # comment box placeholder
   avatar:   # gravatar style
-  guest_info: 昵称,邮件,网址 # custom comment header
+  guest_info: 昵称(不填为匿名),联系方式(选填),网址(选填) # custom comment header
   pageSize: 9 # pagination size
   # path: window.location.pathname
 
