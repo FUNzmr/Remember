@@ -2,8 +2,7 @@
 layout: post
 title:  "你果然好看"
 tags:
-  - 真的
-  - 好看
+  - jekyll
 hero: uploads/zmr1569464182809.jpg
 overlay: purple
 published: true
