@@ -47,7 +47,7 @@ valine:
   appid:  Ey1ea9rKccS26vqCqvauaXuI-MdYXbMMI # your leancloud app id
   appkey: u6vG3pP3jdraMeUUHIwheV5u # your leancloud app key
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: true # Verification code
+  verify: false # Verification code
   placeholder: 在此处留言··· # comment box placeholder
   avatar:   # gravatar style
   guest_info: 昵称(不填为匿名),联系方式(选填),网址(选填) # custom comment header
