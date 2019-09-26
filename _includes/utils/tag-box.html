@@ -1,11 +1,11 @@
 <div class="tag-box">
 <hr/>
-<span>Check out other tags:</span>
+<span>推-荐</span>
 <ul>
    {% assign tags = site.tags | sort %}
    {% for tag in tags %}
    <li>
-     <a href="/tag/{{ tag | first | slugify }}/">#{{ tag[0] }}</a>
+     <a href="/tag/{{ tag | first | slugify }}/">😜{{ tag[0] }}</a>
    </li>
    {% endfor %}
 </ul>
