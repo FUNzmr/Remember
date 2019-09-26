@@ -10,4 +10,9 @@ published: true
 ---
 喜欢你，超级喜欢你。
 {: .lead}
+这是一句话
 <!–-break-–>
+
+~~~
+hahaha~
+~~~
