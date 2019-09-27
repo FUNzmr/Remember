@@ -3,9 +3,6 @@ layout: page
 title: FUN
 permalink: /about/
 published: true
-description: >
-  每个灵魂都半人半鬼
-  
 ---
 
 <div class="page" markdown="1">
@@ -23,6 +20,7 @@ description: >
 
 ##  🤨
 
-每个灵魂都半人半鬼
+<center><font color=grey>**每个灵魂都半人半鬼**</font></center>
+
 
 </div>
