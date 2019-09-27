@@ -29,7 +29,7 @@ author:
   fullname                  : FUN
   # rss                       : true # generate RSS feed and show it's icon in header
   # mail                      : your@email.com # change to your e-mail address
-  # twitter                   : true # twitter-user-name
+  twitter                   : true # twitter-user-name
   # github                    : "FUNzmr" # github-user-name
   # youtube                   : true # youtube-user-name
   # stackoverflow             : true # stackoverflow-user-name
