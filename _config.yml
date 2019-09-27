@@ -32,7 +32,7 @@ author:
   twitter                   : true # twitter-user-name
   # github                    : "FUNzmr" # github-user-name
   # youtube                   : true # youtube-user-name
-  # stackoverflow             : true # stackoverflow-user-name
+  stackoverflow             : true # stackoverflow-user-name
   disqus                    : true # dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/youandme.png"
