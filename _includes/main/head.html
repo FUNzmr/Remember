@@ -2,12 +2,12 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <title>{% if page.title == "Blog" %}{{ site.blog.title }} <!-- &middot; --> {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &#9642; {{ site.blog.title }}{% endif %}</title>
-<!--{% if page.description %}
+{% if page.description %}
 {% capture desc %}{{ page.description }}{:.message}{% endcapture %}
 <meta name="description" content="{{ desc | markdownify | strip_html | truncatewords: 50 }}">
 {% else %}{% if page.excerpt %}
 <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
-{% endif %}{% endif %}-->
+{% endif %}{% endif %}
 
 
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}">
