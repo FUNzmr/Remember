@@ -31,9 +31,9 @@ author:
   mail                      : your@email.com # change to your e-mail address
   twitter                   : twitter-user-name
   github                    : "FUNzmr" # github-user-name
-  youtube                   : youtube-user-name
+  # youtube                   : youtube-user-name
   stackoverflow             : stackoverflow-user-name
-  disqus                    : dactl # your disqus site name
+  # disqus                    : dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/youandme.png"
   photo2x                   : "uploads/youandme.png"
@@ -50,7 +50,7 @@ valine:
   verify: false # Verification code
   placeholder: 在此处留言··· # comment box placeholder
   avatar:   # gravatar style
-  guest_info: 昵称(不填为匿名),联系方式(选填),网址(选填) # custom comment header
+  guest_info: 昵称,邮箱,网址 # custom comment header
   pageSize: 9 # pagination size
   # path: window.location.pathname
 
