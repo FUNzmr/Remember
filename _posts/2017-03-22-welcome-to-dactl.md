@@ -17,5 +17,3 @@ published: true
 a = "like you!"
 print(a)
 ~~~
-
-{:toc}
