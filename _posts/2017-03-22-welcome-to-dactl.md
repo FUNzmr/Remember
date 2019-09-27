@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "好看"
+title:  "dit"
 tags:
-  - 好看
+  - jekyll
 hero: ./uploads/zmr1569464182809.jpg
 overlay: purple
 published: true
