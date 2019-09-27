@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "你果然好看"
+title:  "好看"
 tags:
-  - jekyll
+  - 好看
 hero: ./uploads/zmr1569464182809.jpg
 overlay: purple
 published: true
@@ -10,9 +10,12 @@ published: true
 ---
 喜欢你，超级喜欢你。
 {: .lead}
-这是一句话
+>这是一句话
+>>这是第二句
+>>>这是第三局
 <!–-break-–>
 
-~~~
-hahaha~
+~~~python
+a = "like you!"
+print(a)
 ~~~
