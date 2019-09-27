@@ -3,9 +3,10 @@ layout: page
 title: 图集
 permalink: /imgs/
 published: true
+
 ---
 
-<div class="page" markdown="1">
+<div class="page">
 
 {% capture page_subtitle %}
 
