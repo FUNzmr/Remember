@@ -5,7 +5,6 @@ permalink: /archive/
 weight: 5
 sitemap:
   priority: 0.9
-  
 ---
 
 <div class="page">
