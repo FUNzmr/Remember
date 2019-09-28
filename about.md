@@ -19,10 +19,9 @@ published: true
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
 
-## <center>🤨</center>
+### <center>🤨</center>
 
-## <center>每个灵魂都半人半鬼</center>
-
+### <center>每个灵魂都半人半鬼</center>
 
 
 </div>
