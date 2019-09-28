@@ -15,6 +15,18 @@ published: true
     </h3>
 </div>
 
+{% capture example_variable %}
+
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+
+{% endcapture %}
+
 <!-- Adding the glitch effect -->
 <script>
     document.getElementsByTagName('body')[0].classList.add('glitch');
