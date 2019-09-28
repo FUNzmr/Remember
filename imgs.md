@@ -19,6 +19,4 @@ published: true
 
 </div>
 
-<img src="http://images.weserv.nl/?url=funzmr.github.io/Remember{{ page.image }}&w=200&h=200&output=jpg&q=65" />
-
 {% include image-gallery.html folder="/uploads" %}
