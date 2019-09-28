@@ -14,6 +14,17 @@ published: true
     src="{{ site.author.photo | relative_url }}"
     srcset="{{ site.author.photo2x | relative_url }} 2x"
 />
+
+
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+
+
 {% endcapture %}
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
