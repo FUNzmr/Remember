@@ -18,4 +18,7 @@ published: true
 <center>每个灵魂都半人半鬼</center>
 
 </div>
+
+<img src="http://images.weserv.nl/?url=funzmr.github.io/Remember{{ page.image }}&w=200&h=200&output=jpg&q=65" />
+
 {% include image-gallery.html folder="/uploads" %}
