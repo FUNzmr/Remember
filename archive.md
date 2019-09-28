@@ -46,7 +46,6 @@ sitemap:
   {% comment %}
     {% include utils/tag-box.html %}
   {% endcomment %}
-
-
-  {% include page/serch-lunr.html %}
 </div>
+
+{% include page/serch-lunr.html %}
