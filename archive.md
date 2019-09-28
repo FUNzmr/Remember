@@ -11,6 +11,9 @@ sitemap:
 
 {% capture page_subtitle %}
   {% include page/searchbox.html %}
+  
+  {% include serch-lunr.html %}
+  
 {% endcapture %}
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
