@@ -18,21 +18,21 @@
         {% if site.author.youtube %}
         <li>
             <a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
-              <span class="sina-weibo"></span>
+              <span class="fas fa-headphones-alt"></span>
             </a>
         </li>
         {% endif %}
         {% if site.author.stackoverflow %}
         <li>
             <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
-              <span class="sina-weibo"></span>
+              <span class="fab fa-weixin"></span>
             </a>
         </li>
         {% endif %}
         {% if site.author.twitter %}
         <li>
             <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
-              <span class="sina-weibo"></span>
+              <span class="fab fa-qq"></span>
             </a>
         </li>
         {% endif %}
@@ -53,7 +53,7 @@
         {% if site.author.rss == true %}
         <li>
             <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
-                <span class="image"></span>
+                <span class="icon-rss_feed"></span>
             </a>
         </li>
         {% endif %}
