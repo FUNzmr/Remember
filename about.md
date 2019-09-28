@@ -23,7 +23,7 @@ published: true
 
 ## <center>每个灵魂都半人半鬼</center>
 
-{% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
+{% include image-gallery.html folder="https://github.com/FUNzmr/Remember/blob/master/uploads/zmr1569464182809.jpg" %}
 {% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
 {% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
 {% include image-gallery.html folder="/uploads/zmr1569464182809.jpg" %}
