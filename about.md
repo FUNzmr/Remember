@@ -3,6 +3,7 @@ layout: page
 title: FUN
 permalink: /about/
 published: true
+
 ---
 
 <div class="page" markdown="1">
