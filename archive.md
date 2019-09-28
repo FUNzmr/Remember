@@ -47,5 +47,3 @@ sitemap:
     {% include utils/tag-box.html %}
   {% endcomment %}
 </div>
-
-{% include page/serch-lunr.html %}
