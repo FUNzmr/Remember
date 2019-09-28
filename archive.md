@@ -12,7 +12,7 @@ sitemap:
 {% capture page_subtitle %}
   {% include page/searchbox.html %}
   
-  {% include serch-lunr.html %}
+  {% include page/serch-lunr.html %}
   
 {% endcapture %}
 
