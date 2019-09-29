@@ -17,6 +17,6 @@ published: true
 
 <center>每个灵魂都半人半鬼</center>
 
-</div>
-
 {% include image-gallery.html folder="/uploads" %}
+
+</div>
