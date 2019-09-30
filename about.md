@@ -26,3 +26,9 @@ published: true
 
 
 </div>
+
+
+<!-- Adding the glitch effect -->
+<script>
+    document.getElementsByTagName('body')[0].classList.add('glitch');
+</script>
