@@ -24,11 +24,4 @@ published: true
 
 ### <center>每个灵魂都半人半鬼</center>
 
-
 </div>
-
-
-<!-- Adding the glitch effect -->
-<script>
-    document.getElementsByTagName('body')[0].classList.add('glitch');
-</script>
