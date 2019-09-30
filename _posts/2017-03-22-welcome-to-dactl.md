@@ -13,7 +13,6 @@ published: true
 这是一句话
 <!–-break-–>
 
-~~~python
-a = "like you!"
-print(a)
+~~~
+
 ~~~
