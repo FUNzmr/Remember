@@ -13,9 +13,7 @@ published: true
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
 
-<center>🤨</center>
-
-<center>每个灵魂都半人半鬼</center>
+<center>最好的我们</center>
 
 {% include image-gallery.html folder="/uploads" %}
 
