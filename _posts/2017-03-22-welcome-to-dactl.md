@@ -3,7 +3,7 @@ layout: post
 title:  "dit"
 tags:
   - jekyll
-hero: ./uploads/zmr1569464182809.jpg
+hero: https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg
 overlay: purple
 published: true
 
