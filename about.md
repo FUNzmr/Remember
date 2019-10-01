@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: We're FUN
 permalink: /about/
 published: true
 
@@ -20,8 +20,8 @@ published: true
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
 
-### <center>🤨</center>
+### <center>你是宇宙里最特别的那颗星</center>
 
-### <center>每个灵魂都半人半鬼</center>
+### <center>只被我看见的那部分天真</center>
 
 </div>
