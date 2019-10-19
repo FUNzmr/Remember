@@ -18,7 +18,7 @@ published: true
 
 {% endcapture %}
 
-{% include page/title.html  subtitle=page_subtitle %}
+{% include page/title.html title=page.title subtitle=page_subtitle %}
 
 ### <center>你是宇宙里最特别的那颗星</center>
 
