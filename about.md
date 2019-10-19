@@ -18,13 +18,7 @@ published: true
 
 {% endcapture %}
 
-<div class="page-title-container">
-  <div class="heading-container">
-    <span>{{ include.subtitle }}</span>
-  </div>
-</div>
-
-<-- {% include page/title.html title=page.title subtitle=page_subtitle %} -->
+{% include page/title.html title=page.title subtitle=page_subtitle %}
 
 ### <center>你是宇宙里最特别的那颗星</center>
 
