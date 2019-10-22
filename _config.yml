@@ -51,6 +51,7 @@ valine:
   avatar:   # gravatar style
   guest_info: 昵称,邮箱,网址 # custom comment header
   pageSize: 9 # pagination size
+  meta: ['名字','邮箱','网址']
   # path: window.location.pathname
 
 
