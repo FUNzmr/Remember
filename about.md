@@ -1,6 +1,6 @@
 ---
 layout: page
-title: &nbsp;
+title: We're FUN
 permalink: /about/
 published: true
 
