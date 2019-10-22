@@ -15,6 +15,6 @@ published: true
 
 <center>最好的我们</center>
 
-{% include image-gallery.html folder="/uploads" %}
+{% include externals/image-gallery.html folder="/uploads" %}
 
 </div>
