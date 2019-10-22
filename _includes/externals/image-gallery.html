@@ -16,15 +16,14 @@
    {% assign filenameparts = file.path | split: "/" %}
    {% assign filename = filenameparts | last | replace: file.extname,"" %}
    
-   <a href="https://raw.githubusercontent.com/FUNzmr/Remember/master/{{ file.path }}" title="{{ filename }}">
+	<a href="https://raw.githubusercontent.com/FUNzmr/Remember/master/{{ file.path }}" title="{{ filename }}">
+	<!-- Live link address  -->
+	<img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path }}&w=300 &h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" style="margin-left: 20px;margin-top: 10px;" />
+	<!-- Dead links -->
+	<img src="//images.weserv.nl/?url=https://raw.githubusercontent.com/FUNzmr/Remember/master{{ file.path }}&w=300 &h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" style="margin-left: 20px;margin-top: 10px" />
 	   
-	   <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path }}&w=300 &h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" style="margin-left: 20px;margin-top: 10px;" />
-  
-  <!-- <img src="//images.weserv.nl/?url=https://raw.githubusercontent.com/FUNzmr/Remember/master{{ file.path }}&w=300 &h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" /> -->
-	   
-	   <!-- https://raw.githubusercontent.com/FUNzmr/Remember/master/uploads/zmr1569464182809.jpg -->
-		<span>{{ filename }}</span>
-	 </a>
+	<span>{{ filename }}</span>
+	</a>
 	{% endif %}
    {% endif %}
   {% endfor %}
