@@ -3,25 +3,26 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="zh-cn">
-<!--图标库-->
-<script src="https://kit.fontawesome.com/6a143b8611.js" crossorigin="anonymous"></script>
+    <html lang="zh-cn">
+    <haed>
+        <!--图标库-->
+        <script src="https://kit.fontawesome.com/6a143b8611.js" crossorigin="anonymous"></script>
 
-{% include main/head.html %}
+        {% include main/head.html %}
+    </haed>
+    <body>
+        <div class="wrapper" id="blep">
+            {% include main/header.html %}
 
-<body>
-    <div class="wrapper" id="blep">
-        {% include main/header.html %}
+            {{ content }}
 
-        {{ content }}
+            {% include main/footer.html %}
+        </div>
 
-        {% include main/footer.html %}
-    </div>
+        {% include externals/scripting.html %}
+        {% include externals/google_analytics.html %}
+        {% include externals/love.html %}
+        {% include externals/Head_loading_bar.html %}
 
-    {% include externals/scripting.html %}
-    {% include externals/google_analytics.html %}
-    {% include externals/love.html %}
-    {% include externals/Head_loading_bar.html %}
-
-</body>
+    </body>
 </html>
