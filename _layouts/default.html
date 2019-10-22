@@ -4,27 +4,26 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        
-        <!--图标库-->
-        <script src="https://kit.fontawesome.com/6a143b8611.js" crossorigin="anonymous"></script>
+<head>
+<!--图标库-->
+<script src="https://kit.fontawesome.com/6a143b8611.js" crossorigin="anonymous"></script>
         
         {% include main/head.html %}
-    </head>
+</head>
 
-    <body>
-        <div class="wrapper" id="blep">
-            {% include main/header.html %}
+<body>
+    <div class="wrapper" id="blep">
+        {% include main/header.html %}
 
-            {{ content }}
+        {{ content }}
 
-            {% include main/footer.html %}
-        </div>
+        {% include main/footer.html %}
+    </div>
 
-        {% include externals/scripting.html %}
-        {% include externals/google_analytics.html %}
-        {% include externals/love.html %}
-        {% include externals/Head_loading_bar.html %}
-        
-    </body>
+    {% include externals/scripting.html %}
+    {% include externals/google_analytics.html %}
+    {% include externals/love.html %}
+    {% include externals/Head_loading_bar.html %}
+
+</body>
 </html>
