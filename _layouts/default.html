@@ -23,6 +23,34 @@ layout: compress
         {% include externals/google_analytics.html %}
         {% include externals/love.html %}
         {% include externals/Head_loading_bar.html %}
+        
+        <!-- 回到顶部 -->
+        <a class="to-top">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 448"><path d="M420.75 332.75l-41.5 41.25c-6.25 6.25-16.25 6.25-22.5 0l-132.75-132.75-132.75 132.75c-6.25 6.25-16.25 6.25-22.5 0l-41.5-41.25c-6.25-6.25-6.25-16.5 0-22.75l185.5-185.25c6.25-6.25 16.25-6.25 22.5 0l185.5 185.25c6.25 6.25 6.25 16.5 0 22.75z"></path></svg>
+        </a>
+        <!-- css样式 -->
+        <style>
+            .to-top {
+            display: none;
+            padding: 0 1px;
+            color: #fff;
+            background-color: #dfdfdf;
+            width: 2.5em;
+            height: 2.5em;
+            border-radius: 6%;
+            justify-content: center;
+            align-items: center;
+            }
+        </style>
+
+        <!-- js -->
+        <script src="assets/js/jquery-1.11.3.min.js"></script>
+        <script src="assets/js/jquery.toTop.js"></script>
+        <script>
+        $(function() {
+            $('.to-top').toTop();
+        });
+        </script>
 
     </body>
 </html>
