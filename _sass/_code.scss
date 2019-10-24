@@ -31,8 +31,8 @@ pre code {
 }
 
 figure, .figure {
-//   margin-left: -1rem;
-//   margin-right: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
 
   > *:first-child {
     padding: 1rem;
@@ -131,25 +131,25 @@ figure, .figure {
     display: none;
   }
 }
-
-// Gist via GitHub Pages
-// .gist .gist-file {
-//   font-family: Menlo, Monaco, "Courier New", monospace !important;
-// }
-// .gist .markdown-body {
-//   padding: 15px;
-// }
-// .gist pre {
-//   padding: 0;
-//   background-color: transparent;
-// }
-// .gist .gist-file .gist-data {
-//   font-size: .8rem !important;
-//   line-height: 1.4;
-// }
-// .gist code {
-//   padding: 0;
-//   color: inherit;
-//   background-color: transparent;
-//   border-radius: 0;
-// }
+// _______________
+Gist via GitHub Pages
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
