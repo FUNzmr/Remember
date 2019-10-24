@@ -53,3 +53,17 @@
 {% if site.blog.inline_footnotes == true %}
 <link rel="stylesheet" href="{{ "assets/css/bf.css" | relative_url }}">
 {% endif %}
+	<style type="text/css">
+		/* 方法一 */
+		html::-webkit-scrollbar{
+			display: none;
+			/* 火狐 */
+			scrollbar-width: none;
+		}
+		/* 方法二 */
+		html {
+		-ms-overflow-style:none;
+		overflow:-moz-scrollbars-none;
+		}
+		html::-webkit-scrollbar{width:0px}
+	</style>
