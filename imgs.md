@@ -9,7 +9,7 @@ published: true
 
 {% capture page_subtitle %}
 <!-- 可以加一个音乐播放器 -->
-	{% include externals/searchbox.html %}
+	{% include page/APlayer.html %}
 {% endcapture %}
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
