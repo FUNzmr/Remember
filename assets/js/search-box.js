@@ -38,7 +38,7 @@ xhr.onreadystatechange = function () {
 }
 
 // 开始获取根目录下 feed.xml 文件内的数据
-xhr.open('get', '/feed.xml', true);
+xhr.open('get', 'https://raw.githubusercontent.com/FUNzmr/Remember/master/feed.xml', true);
 xhr.send();
 
 searchBtn.onclick = searchConfirm;
