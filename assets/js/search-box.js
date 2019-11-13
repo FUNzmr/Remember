@@ -28,13 +28,14 @@ xhr.onreadystatechange = function () {
         // 同时过滤掉 HTML 标签
         for (i = 0; i < itemLength; i++) {
             arrContents[i] = arrItems[i].getElementsByTagName('description')[0].
-				childNodes[0].nodeValue.replace(/<pre.*?>.*?<\/pre>/g, '');
                 childNodes[0].nodeValue.replace(/<.*?>/g, '');
-            arrLinks[i] = arrItems[i].getElementsByTagName('link')[0].
+				
+			arrContents[i] = arrItems[i].getElementsByTagName('description')[0].
 				childNodes[0].nodeValue.replace(/<pre.*?>.*?<\/pre>/g, '');
+				
+            arrLinks[i] = arrItems[i].getElementsByTagName('link')[0].
                 childNodes[0].nodeValue.replace(/<.*?>/g, '');
             arrTitles[i] = arrItems[i].getElementsByTagName('title')[0].
-				childNodes[0].nodeValue.replace(/<pre.*?>.*?<\/pre>/g, '');
                 childNodes[0].nodeValue.replace(/<.*?>/g, '');
         }
     }
