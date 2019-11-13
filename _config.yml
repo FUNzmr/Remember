@@ -70,7 +70,7 @@ permalink                    : posts/:slug
 excerpt_separator            : <!–-break-–>
 
 # Pagination
-paginate                     : 100
+paginate                     : 3
 paginate_path                : '/page-:num/'
 
 # Tags
