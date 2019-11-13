@@ -5,12 +5,9 @@ permalink: /imgs/
 published: true
 ---
 
-<div class="page" >
+<div class="page">
 
-{% capture page_subtitle %}
-<!-- 可以加一个音乐播放器 -->
-	
-	<link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+<link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
 	 <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
 	<!-- <style>
 	     .demo{width:360px;margin:60px auto 10px auto}
@@ -67,6 +64,11 @@ published: true
 	             });
 	     ap.init();
 	 </script>
+
+{% capture page_subtitle %}
+<!-- 可以加一个音乐播放器 -->
+	
+	
 	
 {% endcapture %}
 
