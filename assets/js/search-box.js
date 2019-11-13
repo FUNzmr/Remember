@@ -31,7 +31,7 @@ xhr.onreadystatechange = function () {
                 childNodes[0].nodeValue.replace(/<.*?>/g, '');
 				
 			arrContents[i] = arrItems[i].getElementsByTagName('description')[0].
-				childNodes[0].nodeValue.replace(/<pre.*?>.*?<\/pre>/g, '');
+				childNodes[0].nodeValue.replace(/<pre.*?>.*?<\/pre>/ig, '');
 				
             arrLinks[i] = arrItems[i].getElementsByTagName('link')[0].
                 childNodes[0].nodeValue.replace(/<.*?>/g, '');
