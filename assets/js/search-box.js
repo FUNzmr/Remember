@@ -69,7 +69,7 @@ function searchConfirm() {
         // 检测输入值全是空白的情况
         searchInit();
         var itemDiv = tmpDiv.cloneNode(true);
-        itemDiv.innerText = '请输入有效内容...';
+        itemDiv.innerText = '请输入有效内容...' + '<i class="material-icons search-icon search-clear">clear</i>';
         searchResults.appendChild(itemDiv);
     } else {
         // 合法输入值的情况
@@ -116,7 +116,7 @@ function searchMatching(arr1, arr2, input) {
 
     // 输出总共匹配到的数目
     var totalDiv = tmpDiv.cloneNode(true);
-    totalDiv.innerHTML = '总匹配：<b>' + indexItem.length + '</b> 项';
+    totalDiv.innerHTML = '总匹配：<b>' + indexItem.length + '</b> 项' + '<i class="material-icons search-icon search-clear">clear</i>';
     searchResults.appendChild(totalDiv);
 
     // 未匹配到内容的情况
