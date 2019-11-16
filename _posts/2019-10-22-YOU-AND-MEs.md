@@ -14,11 +14,7 @@ published: true
 ### 年少的喜欢最是惊艳
 <!–-break-–>
 年少的喜欢最是惊艳，对视的时候忍不住闪躲，安静的时候又忍不住想偷偷看一眼，如果能对视一笑，那么今天一整天的心情都闪闪发光了。
-~~~
 
-~~~
-
-{% include post.html post=page %}
 
 {% if site.valine.enable %}
     {% include externals/valine_comments.html %}
