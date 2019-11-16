@@ -3,7 +3,6 @@ layout: post
 title:  "年少的欢喜"
 tags:
   - 喜欢你
-  - jekyll
 hero: https://raw.githubusercontent.com/FUNzmr/Remember/master/uploads/zmr1569464182809.jpg
 overlay: purple
 published: true
