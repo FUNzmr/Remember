@@ -24,7 +24,7 @@
             speed: 500,
             position: true,
             right: 20,
-            bottom: 20
+            bottom: 66
         }, opt);
         
         elem.css({
