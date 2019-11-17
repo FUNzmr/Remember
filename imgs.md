@@ -8,7 +8,7 @@ published: true
 <div class="page">
 
 
-{% include externals/Back_to_the_top.html %}
+{% include externals/Aplayer.html %}
 
 
 
