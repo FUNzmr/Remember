@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 图集
+title: 相册
 permalink: /imgs/
 published: true
 ---

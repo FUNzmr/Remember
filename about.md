@@ -1,6 +1,6 @@
 ---
 layout: page
-title: We're FUN
+title: 关于
 permalink: /about/
 published: true
 
