@@ -14,6 +14,7 @@ published: true
 <!–-break-–>
 年少的喜欢最是惊艳，对视的时候忍不住闪躲，安静的时候又忍不住想偷偷看一眼，如果能对视一笑，那么今天一整天的心情都闪闪发光了。
 
+<!-- 视频云 -->
 <div id="player"></div>
 <script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
 <script type="text/javascript">
@@ -26,7 +27,7 @@ var player = new DogePlayer({
 </script>
 
 
-
+<!-- 左下角浮窗aplayer -->
 <link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
 <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
 <div id="aplayer">
