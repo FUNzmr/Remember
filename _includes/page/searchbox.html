@@ -23,6 +23,23 @@
 </div>
 
 <style type="text/css">
+	/* div属性为:"search-results"滚动条样式 */
+	.search-results::-webkit-scrollbar {
+	 width: 8px;
+	}
+	 .search-results::-webkit-scrollbar-track {
+	 background-color:red;
+	 -webkit-border-radius: 2em;
+	 -moz-border-radius: 2em;
+	 border-radius:2em;
+	}
+	 .search-results::-webkit-scrollbar-thumb {
+	 background-color:green;
+	 -webkit-border-radius: 2em;
+	 -moz-border-radius: 2em;
+	 border-radius:2em;
+	}
+	
 	.search {
 		position: relative;
 		height: 30px;
