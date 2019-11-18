@@ -130,7 +130,7 @@ function searchMatching(arr1, arr2, input) {
     for (i = 0; i < arrResults.length; i++) {
         var itemDiv = tmpDiv.cloneNode(true);
         itemDiv.innerHTML = '<b>《' + arrTitles[indexItem[i]] +
-            '》</b>&nbsp;&nbsp;&nbsp;' + arrResults[i];
+            '》</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + arrResults[i];
         itemDiv.setAttribute('onclick', 'changeHref(arrLinks[indexItem[' + i + ']])');
         searchResults.appendChild(itemDiv);
     }
@@ -141,6 +141,6 @@ function changeHref(href) {
     // 在当前页面点开链接的情况
     location.href = href;
 
-    // 在新标签页面打开链接的代码，与上面二者只能取一个，自行决定
+    // 在新标签页面打开链接的代码，与上面二者只能取一个
     // window.open(href);
 }
