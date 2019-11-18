@@ -8,11 +8,7 @@ sitemap:
 ---
 
 <div class="page">
-<!-- 加一个框导入searchbox -->
-<!-- {% capture page_subtitle %}
-  {% include page/searchbox.html %}
-{% endcapture %}
-{% include page/title.html title=page.title subtitle=page_subtitle %} -->
+
   {% include page/searchbox.html %}
 	<br/>
 	<br/>
