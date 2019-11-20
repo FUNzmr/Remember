@@ -109,7 +109,7 @@ function searchMatching(arr1, arr2, input) {
             
             // 将匹配到内容的地方进行黄色标记，并包括周围一定数量的文本
             arrResults.push(arr[i].slice(indexContent - step, indexContent) +
-                '<mark>' + arr[i].slice(indexContent, indexContent + l) + '</mark>' +
+                '<mark style="border-bottom: 1px dashed #F44336;color: #F44336;font-weight: bold;">' + arr[i].slice(indexContent, indexContent + l) + '</mark>' +
                 arr[i].slice(indexContent + l, indexContent + l + step));
         }
     }
