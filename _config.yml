@@ -42,13 +42,16 @@ author:
 # You can get your appid and appkey from https://leancloud.app
 # more info please open https://valine.js.org
 valine:
+  enable: true
   appid:  Ey1ea9rKccS26vqCqvauaXuI-MdYXbMMI # your leancloud app id
   appkey: u6vG3pP3jdraMeUUHIwheV5u # your leancloud app key
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 来都来了，不说点啥？ # comment box placeholder
+  avatar:   # gravatar style
   guest_info: 昵称,邮箱,网址 # custom comment header
   pageSize: 9 # pagination size
+  # path: window.location.pathname
 
 
 ## !!
