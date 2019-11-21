@@ -49,8 +49,6 @@ valine:
   placeholder: 来都来了，不说点啥？ # comment box placeholder
   guest_info: 昵称,邮箱,网址 # custom comment header
   pageSize: 9 # pagination size
-  visitor: true # 阅读量统计
-  recordIP: false  # 是否记录IP
 
 
 ## !!
