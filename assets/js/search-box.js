@@ -81,6 +81,28 @@ function searchConfirm() {
         var itemDiv = tmpDiv.cloneNode(true);
         itemDiv.innerText = '请输入有效内容...' ;
         searchResults.appendChild(itemDiv);
+    } else if (searchInput.value.search("周梦茹") >= 0) {
+		//让搜索图标消失
+		searchBtn.style.display = 'none';
+		//让清除图标显示
+		searchClear.style.display = 'block';
+		
+        // 检测输入值全是空白的情况
+        searchInit();
+        var itemDiv = tmpDiv.cloneNode(true);
+        itemDiv.innerText = '当然是杨浩宇的周梦茹啊❤️' ;
+        searchResults.appendChild(itemDiv);
+    } else if (searchInput.value.search("杨浩宇") >= 0) {
+		//让搜索图标消失
+		searchBtn.style.display = 'none';
+		//让清除图标显示
+		searchClear.style.display = 'block';
+		
+        // 检测输入值全是空白的情况
+        searchInit();
+        var itemDiv = tmpDiv.cloneNode(true);
+        itemDiv.innerText = '当然是周梦茹的杨浩宇啊❤' ;
+        searchResults.appendChild(itemDiv);
     } else {
         // 合法输入值的情况
         searchInit();
