@@ -134,7 +134,7 @@ function searchMatching(arr1, arr2, input) {
     // 未匹配到内容的情况
     if (indexItem.length == 0) {
         var itemDiv = tmpDiv.cloneNode(true);
-        itemDiv.innerText = '未匹配到内容...';
+        itemDiv.innerText = '🙃哎呀!什么也没找到...';
         searchResults.appendChild(itemDiv);
     }
 
