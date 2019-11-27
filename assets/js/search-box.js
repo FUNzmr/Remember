@@ -101,7 +101,7 @@ function searchConfirm() {
         // 检测输入值全是空白的情况
         searchInit();
         var itemDiv = tmpDiv.cloneNode(true);
-        itemDiv.innerText = '当然是周梦茹的杨浩宇啊❤' ;
+        itemDiv.innerText = '当然是周梦茹的杨浩宇啊❤️' ;
         searchResults.appendChild(itemDiv);
     } else {
         // 合法输入值的情况
