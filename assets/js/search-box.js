@@ -48,6 +48,8 @@ searchClear.onclick = function(){
     searchInput.value = '';
     searchResults.style.display = 'none';
     searchClear.style.display = 'none';
+	//让搜索图标显示
+	searchBtn.style.display = 'block';
 }
 
 // 输入框内容变化后就开始匹配，可以不用点按钮
@@ -65,8 +67,16 @@ function searchConfirm() {
     if (searchInput.value == '') {
         searchResults.style.display = 'none';
         searchClear.style.display = 'none';
+		//让搜索图标显示
+		searchBtn.style.display = 'block';
     } else if (searchInput.value.search(/^\s+$/) >= 0) {
         // 检测输入值全是空白的情况
+		
+		//让搜索图标消失
+		searchBtn.style.display = 'none';
+		//让清除图标显示
+		searchClear.style.display = 'block';
+		
         searchInit();
         var itemDiv = tmpDiv.cloneNode(true);
         itemDiv.innerText = '请输入有效内容...' ;
@@ -77,6 +87,8 @@ function searchConfirm() {
         searchValue = searchInput.value;
         // 在标题、内容中查找
         searchMatching(arrTitles, arrContents, searchValue);
+		//让搜索图标消失
+		searchBtn.style.display = 'none';
     }
 }
 
