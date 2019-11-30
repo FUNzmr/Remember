@@ -1,4 +1,21 @@
 <footer>
+	<span>©2018-2019</span>&nbsp;<span class="fas fa-heart x" aria-hidden="true"></span>
+	<style type="text/css">
+		/*指定一个动画xx*/
+		@keyframes xx {								/*此为一个流程，按百分比来定义*/
+			0% { transform: scale(0.9); }			/*动画开始之前大小*/
+			50% { transform: scale(1.2); }			/*动画开始之中大小*/
+			100% { transform: scale(0.9); }			/*动画开始之后大小*/
+		}
+		.x{
+			color: #f00;
+			/*让其支持各浏览器*/
+			animation: xx 2s infinite;				/*调用动画，动画播放时间，infinte关键字（无限循环播放动画）*/
+			-webkit-animation: xx 2s infinite;		/*调用动画，动画播放时间，infinte关键字（无限循环播放动画）*/
+			-moz-animation: xx 2s infinite;			/*调用动画，动画播放时间，infinte关键字（无限循环播放动画）*/
+		}
+	</style>
+	&nbsp;
     <span>{{ site.blog.description }}</span>
     <span>{{ site.author.fullname }}</span>
 </footer>
