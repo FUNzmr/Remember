@@ -7,9 +7,6 @@
 {% comment %}-------- Test if we have a date to process --------{% endcomment %}
 {% if processed_date %}
 
-	{%comment%}-------- Output the date ----------{%endcomment%}
-	{{ month[month_index] }} {{ processed_date | date: "%Y" }}
-
     {% assign month = "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月" | split: "," %}
 
     {% assign month_index = processed_date | date: "%m" | minus: 1 %}
@@ -18,5 +15,7 @@
     Here **minus: 0** is a trick to convert day_index from string to integer and then use it as an array index.
     ----------------------------------------------{%endcomment%}
     {% assign day_index = processed_date | date: "%w" | minus: 0 %}
-    
+
+    {%comment%}-------- Output the date ----------{%endcomment%}
+	{{ processed_date | date: "%Y" }} {{ month[month_index] }}
 {% endif %}
