@@ -17,5 +17,5 @@
     {% assign day_index = processed_date | date: "%w" | minus: 0 %}
 
     {%comment%}-------- Output the date ----------{%endcomment%}
-	{{ processed_date | date: "%Y" }}年/{{ month[month_index] }}
+	{{ processed_date | date: "%Y" }}年{{ month[month_index] }}
 {% endif %}
