@@ -46,9 +46,16 @@ layout: compress
 				
 			
 				.column__img:nth-child(odd) {
-					height: 30vw;
+					height: 150px;
 				}
-			
+				
+				@media screen and (max-width: 48rem) {
+				    .column__img:nth-child(odd) {
+						height: 79px;
+				
+					}
+				}
+				
 				.column__img:not(:last-child) {
 					margin-bottom: 1.5rem;
 				}
@@ -61,14 +68,17 @@ layout: compress
 							<div class="column__img" style="background-image:url(https://raw.githubusercontent.com/FUNzmr/Remember/master/uploads/eye.jpg)"></div>
 							
 						</div>
+						
 						<div class="column">
 							<div class="column__img" style="background-image:url(https://raw.githubusercontent.com/FUNzmr/Remember/master/uploads/eye.jpg)"></div>
 							
 						</div>
+						
 						<div class="column">
 							<div class="column__img" style="background-image:url(https://raw.githubusercontent.com/FUNzmr/Remember/master/uploads/eye.jpg)"></div>
 							
 						</div>
+						
 						<div class="column">
 							<div class="column__img" style="background-image:url(https://raw.githubusercontent.com/FUNzmr/Remember/master/uploads/eye.jpg)"></div>
 			
