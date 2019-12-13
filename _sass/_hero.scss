@@ -4,8 +4,10 @@
 // Hero heading colors
 .hero-heading {
     &-blog h1 {
-        font-size: 3.25rem;
+        font-size: 2.33rem;
         margin: auto 5rem;
+		
+		text-align: left;
     }
     &-post h1 {
         font-size: 4.5rem;
@@ -18,7 +20,7 @@
         color: $hero-date-color!important;
     }
     a {
-        color: $hero-heading-color!important;
+        color: $hero-heading-color;
     }
 }
 
