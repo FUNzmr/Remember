@@ -25,13 +25,13 @@
   {% endif %}
       <h1>
         {% if post.link != nil %}
-        <a href="{{ post.link }}" title="{{ post.title }}" title="{{ post.title }}" target="_blank" style="
+        <a href="{{ post.link }}" title="{{ post.title }}" title="{{ post.title }}" target="_blank" >{{ post.title }}</a> &rarr;
+        {% else %}
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}"style="
     -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
     -webkit-text-stroke-color: var(--link-color);
     color: transparent;
-">{{ post.title }}⇦</a> &rarr;
-        {% else %}
-          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
+">{{ post.title }}⇦</a>
         {% endif %}
       </h1>
     <!-- Post meta -->
