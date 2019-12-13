@@ -31,6 +31,10 @@
     &-prev {
       margin-bottom: 0;
       float: left;
+	  
+	  -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
+	  -webkit-text-stroke-color: var(--link-color);
+	  color: transparent;
       a {
         color: var(--link-color);
         @include border-slide(right);
@@ -40,6 +44,10 @@
       margin-left: -1px;
       text-align: right;
       float: right;
+	  
+	  -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
+	  -webkit-text-stroke-color: var(--link-color);
+	  color: transparent;
       a {
         color: var(--link-color);
         @include border-slide(left);

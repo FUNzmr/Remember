@@ -5,20 +5,20 @@
     <li class="pagination-item-prev" >
           {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-            <a rel="prev" href="{{ site.baseurl }}/">&laquo; 上一页</a>
+            <a rel="prev" href="{{ site.baseurl }}/">◀ 上一页</a>
         {% else %}
-        <a rel="prev" href="{{ site.baseurl }}/page-{{paginator.previous_page}}/">&laquo; 上一页</a>
+        <a rel="prev" href="{{ site.baseurl }}/page-{{paginator.previous_page}}/">◀ 上一页</a>
         {% endif %}
       {% else %}
-      <span>&laquo; 上一页</span>
+      <span>◀ 上一页</span>
           {% endif %}
     </li>
 
     <li class="pagination-item-next" >
           {% if paginator.next_page %}
-      <a rel="next" href="{{ site.baseurl }}/page-{{paginator.next_page}}/">下一页 &raquo;</a>
+      <a rel="next" href="{{ site.baseurl }}/page-{{paginator.next_page}}/">下一页 ▶</a>
       {% else %}
-      <span>下一页 &raquo;</span>
+      <span>下一页 ▶</span>
           {% endif %}
     </li>
 
