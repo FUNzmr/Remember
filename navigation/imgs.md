@@ -18,8 +18,8 @@ published: true
 
 
 
-<!-- <div style="background-image: url('https://wearecollins.imgix.net/assets/images/collins-all.jpg?h=748&amp;dpr=2&amp;auto=format,compress&amp;q=50&amp;gif-q=35');" class="contact__marquee" data-duration="110"></div> -->
-<div style="background-image: url('https://pic.downk.cc/item/5e51607bbb8bdc23de4a5a60.jpg');" class="contact__marquee" data-duration="110"></div>
+<div style="background-image: url('https://wearecollins.imgix.net/assets/images/collins-all.jpg?h=748&amp;dpr=2&amp;auto=format,compress&amp;q=50&amp;gif-q=35');" class="contact__marquee" data-duration="110"></div>
+<!-- <div style="background-image: url('https://pic.downk.cc/item/5e51607bbb8bdc23de4a5a60.jpg');" class="contact__marquee" data-duration="110"></div> -->
 
 <style type="text/css">
 	.contact__marquee {
