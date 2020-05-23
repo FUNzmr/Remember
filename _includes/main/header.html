@@ -2,9 +2,7 @@
     <div class="menu">
       <div class="logo">
 
-        <!-- <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a> -->
-		<a href="{{ site.url }}">{{ site.blog.title }}</a>
-		
+        <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a>
 		<span style="
 		    -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
 		    -webkit-text-stroke-color: var(--link-color);
@@ -16,9 +14,7 @@
       </div>
 
         <ul>
-			<!-- <li><a href="https://funzmr.github.io/Remember">首页</a></li> -->
-			<li><a href="{{ site.url }}">首页</a></li>
-			
+			<li><a href="https://funzmr.github.io/Remember">首页</a></li>
             <li><a href="{{ '/about' | prepend: site.baseurl }}">关于</a></li>
             <li><a href="{{ '/archive' | prepend: site.baseurl }}">归档</a></li>
             <li><a href="{{ '/imgs' | prepend: site.baseurl }}">相册</a></li>
