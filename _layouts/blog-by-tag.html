@@ -28,7 +28,7 @@ layout: default
            {% endif %}
 
           <li>
-            <a href="{{ post.url }}">
+            <a href="{{ post.url | prepend: site.baseurl }}">
             <span>{{ post.title }}</span>
             <small>{{ post.date | date: "%m/%d" }}</small>
             </a>
