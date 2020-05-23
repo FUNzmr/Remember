@@ -1,9 +1,9 @@
 # Base blog settings
 baseurl                      : "/Remember" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "http://funzmr.github.io" # the base hostname & protocol for your site
+# url                          : "http://funzmr.github.io" # the base hostname & protocol for your site
 #                                   # `http://<username>.github.io` - for GitHub
-# url							 : "http://freefun.fun"
+url							 : "http://freefun.fun"
 
 blog:
   title                      : FUN
