@@ -13,7 +13,8 @@ blog:
 
 # Layout configuration
   logo_path                  : #"assets/img/dactl.svg" # path to logo fileUS
-  search_path                : "funzmr.github.io"
+  # search_path                : "funzmr.github.io"
+  search_path                : "http://freefun.fun"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
