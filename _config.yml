@@ -4,7 +4,6 @@ baseurl                      : "/Remember" # the subpath of your site,          
 # url                          : "http://funzmr.github.io" # the base hostname & protocol for your site
 #                                   # `http://<username>.github.io` - for GitHub
 url							 : "http://freefun.fun"
-root						 : "/"
 
 blog:
   title                      : FUN
@@ -14,7 +13,7 @@ blog:
 # Layout configuration
   logo_path                  : #"assets/img/dactl.svg" # path to logo fileUS
   # search_path                : "funzmr.github.io"
-  search_path                : "http://freefun.fun"
+  search_path                : "freefun.fun"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
