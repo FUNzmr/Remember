@@ -5,7 +5,7 @@
         <!-- <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a> -->
 		<a href="{{ site.url }}">{{ site.blog.title }}</a>
 		
-		<span href="/Remember/" style="
+		<span style="
 		    -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
 		    -webkit-text-stroke-color: var(--link-color);
 		    color: transparent;
@@ -64,7 +64,7 @@
         {% endif %}
         {% if site.author.rss == true %}
         <li>
-            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
+            <a href="{{ '/feed.xml' }}" target="_blank">
                 <span class="icon-rss_feed"></span>
             </a>
         </li>
