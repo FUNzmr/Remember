@@ -26,7 +26,11 @@
     <div class="heading-container {% if site.blog.hero_layout == true %}hero-heading hero-heading-post{% endif %}">
       <h1>
         {% if post.link != nil %}
-        <a href="{{ post.link }}" title="{{ post.title }}" target="_blank">
+        <a href="{{ post.link }}" title="{{ post.title }}" target="_blank" style="
+    -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
+    -webkit-text-stroke-color: var(--link-color);
+    color: transparent;
+">
         {% endif %}
           {{ post.title }}
         {% if post.link != nil %}
@@ -39,7 +43,7 @@
 <!--         {% include utils/date_custom.html date = post.date %} -->
         <span>
           {% for tag in post.tags %}
-              <a href="{{ 'tag/' | relative_url }}{{ tag }}">❤{{ tag }}</a>
+              <a href="{{ 'tag/' | relative_url }}{{ tag }}">[{{ tag }}]</a>
           {% endfor %}
         </span>
       </div>
