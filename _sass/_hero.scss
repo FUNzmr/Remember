@@ -17,7 +17,8 @@
         color: $hero-heading-color!important;    
     }
     span {
-        color: $hero-date-color!important;
+        // color: $hero-date-color!important;
+		color: var(--link-color)
     }
     a {
         color: $hero-heading-color;
