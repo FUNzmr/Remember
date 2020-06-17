@@ -5,7 +5,7 @@
 .hero-heading {
     &-blog h1 {
         font-size: 4.3rem;
-        margin: auto 5rem;
+        // margin: auto 5rem;
 		
 		text-align: left;
     }
@@ -14,7 +14,8 @@
         margin: auto 5rem;
     }    
     h1 {
-        color: $hero-heading-color!important;    
+        // color: $hero-heading-color!important;    
+		color: var(--link-color);
     }
     span {
         // color: $hero-date-color!important;
