@@ -2,7 +2,8 @@
 <h4 align="left">留言[昵称\邮箱\网址(不填为匿名留言)]：</h4>  
 <div id="comments"></div>
 	<style type="text/css">
-		.v .vwrap {
+		/* 边框 */
+		[data-class=v].v .vwrap {
 		    border: 1px solid #828282;
 		}
 		.v .vlist .vcard .vh {
@@ -11,8 +12,15 @@
 		.v .vwrap .vheader .vinput {
 		    border-bottom: 1px dashed #828282;
 		}
-		.v .vlist .vcard .vquote {
-		    border-left: 1px dashed hsl(0, 0%, 47%);
+		
+		/* 提交按钮 */
+		[data-class=v].v .vbtn {
+		    border: 1px solid #828282;
+		}
+		
+		/* 同级评论 */
+		[data-class=v].v .vcards .vcard .vquote {
+		    border-left: 0px dashed hsl(0, 0%, 47%);
 		}
 	</style>
     <!--Leancloud 操作库:-->
