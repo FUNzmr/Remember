@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "年少的欢喜"
+title:  "我是一个怎样的人"
 tags:
-  - 喜欢你
+  - 个人
 hero: ./uploads/zmr1569464182809.jpg
 overlay: purple
 published: true
