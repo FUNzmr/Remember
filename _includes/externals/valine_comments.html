@@ -30,13 +30,19 @@
     <script>
 	   new Valine({
 		  av: AV,
-		  el: '#comments',
-		  app_id: '{{ site.valine.appid }}',
-		  app_key: '{{ site.valine.appkey }}',
+		  el: '#comment',
+		  appId: '{{ site.valine.appid }}',
+		  appKey: '{{ site.valine.appkey }}',
 		  path: '{{ site.valine.path }}',
+		  avatar: '{{ site.valine.avatar }}',
+		  meta: '{{ site.valine.meta }}',
 		  placeholder: '{{ site.valine.placeholder }}',
 		  notify: '{{ site.valine.notify }}',
 		  verify: '{{ site.valine.verify }}',
+		  pageSize: '{{ site.valine.pageSize }}',
+		  enableQQ: '{{ site.valine.enableQQ }}',
+		  requiredFields: '{{ site.valine.requiredFields }}'
+		  
 	  })
     </script>
 <br>
