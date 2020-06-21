@@ -50,14 +50,12 @@ valine:
   appid						: Ey1ea9rKccS26vqCqvauaXuI-MdYXbMMI # your leancloud app id
   appkey					: u6vG3pP3jdraMeUUHIwheV5u # your leancloud app key
   path						: window.location.pathname # 当前文章页路径，用于区分不同的文章页，以保证正确读取该文章页下的评论列表。
-  avatar					: # gravatar style头像
+  avatar					: monsterid # gravatar style头像
   meta						: 昵称,邮箱,网址 # custom comment header
   placeholder				: 来都来了，不说点啥？ # comment box placeholder
-  notify					: true # mail notifier , https://github.com/xCss/Valine/wiki
+  notify					: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify					: false # Verification code
   pageSize					: 9 # pagination size
-  enableQQ					: true # 昵称框输入QQ自动获取QQ昵称和QQ头像
-  requiredFields			: nick
 
 ## !!
 ## Advanced blog settings
