@@ -26,32 +26,29 @@
     <!--Leancloud 操作库:-->
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     <!--Valine 的核心代码库:-->
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <script>
-	script(src=url_for(theme.CDN.valine))
-	script.
-	  var GUEST_INFO = ['nick','mail','link'];
-	  var guest_info = '#{ theme.valine.guest_info }'.split(',').filter(function(item){
-	    return GUEST_INFO.indexOf(item) > -1
-	  });
-	  guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+    <!-- <script src='//unpkg.com/valine/dist/Valine.min.js'></script> -->
+	<!-- 魔改Valine版 -->
+	<script src="https://unpkg.com/minivaline@2/dist/MiniValine.min.js"></script>
 	
-	  window.valine = new Valine({
+	
+    <script>
+	   new Valine({
 		  av: AV,
 		  el: '#comments',
-		  enableQQ: true,
-		  boolean: true,
-		  
-		  app_id: '{{ site.valine.appid }}',
-		  app_key: '{{ site.valine.appkey }}',
-		  path: '{{ site.valine.path }}',
+		  appId: '{{ site.valine.appid }}',
+		  appKey: '{{ site.valine.appkey }}',
+		  // path: '{{ site.valine.path }}',
 		  avatar: '{{ site.valine.avatar }}',
-		  meta: guest_info,
+		  meta: '{{ site.valine.meta }}',
 		  placeholder: '{{ site.valine.placeholder }}',
 		  notify: '{{ site.valine.notify }}',
 		  verify: '{{ site.valine.verify }}',
 		  pageSize: '{{ site.valine.pageSize }}',
-		  requiredFields: ['nick','mail'],
+		  enableQQ: true,
+		  requiredFields: '{{ site.valine.requiredFields }}',
+		  
+		  mode: DesertsP,
+		  metaPlaceholder: {“nick”:“昵称 / QQ 号”,“mail”:“邮箱 (必填)”},
 	  })
     </script>
 <br>
