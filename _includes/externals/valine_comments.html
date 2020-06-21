@@ -28,15 +28,15 @@
     <!--Valine 的核心代码库:-->
     <!-- <script src='//unpkg.com/valine/dist/Valine.min.js'></script> -->
 	<!-- 魔改Valine版 -->
-	<script src="https://unpkg.com/minivaline@2/dist/MiniValine.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
 	
 	
     <script>
 	   new Valine({
 		  av: AV,
 		  el: '#comments',
-		  appId: '{{ site.valine.appid }}',
-		  appKey: '{{ site.valine.appkey }}',
+		  app_id: '{{ site.valine.appid }}',
+		  app_key: '{{ site.valine.appkey }}',
 		  // path: '{{ site.valine.path }}',
 		  avatar: '{{ site.valine.avatar }}',
 		  meta: '{{ site.valine.meta }}',
